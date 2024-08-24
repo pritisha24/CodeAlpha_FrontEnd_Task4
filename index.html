@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Logo">Symphonic</li>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best of This Year</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/cover.jpg" alt="1">
+                    <span class="songName"> Girls Know</span>
+                    <span class="songlistplay"><span class="timestamp">01:45<i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            
+                <div class="songItem">
+                    <img src="covers/cover2.jpg" alt="1">
+                    <span class="songName">Corny Candy</span>
+                    <span class="songlistplay"><span class="timestamp">02:01<i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            
+                <div class="songItem">
+                    <img src="covers/cover3.jpg" alt="1">
+                    <span class="songName">In the Wild</span>
+                    <span class="songlistplay"><span class="timestamp">03:04<i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            
+                <div class="songItem">
+                    <img src="covers/cover4.jpg" alt="1">
+                    <span class="songName">Low Noon</span>
+                    <span class="songlistplay"><span class="timestamp">01:56<i id="4"  class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            
+                <div class="songItem">
+                    <img src="covers/cover5.jpg" alt="1">
+                    <span class="songName">Sweet Hearts</span>
+                    <span class="songlistplay"><span class="timestamp">03:44<i id="5"  class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            
+                <div class="songItem">
+                    <img src="covers/cover6.jpg" alt="1">
+                    <span class="songName">Blue Ribbon</span>
+                    <span class="songlistplay"><span class="timestamp">03:40<i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            
+                <div class="songItem">
+                    <img src="covers/cover7.jpg" alt="1">
+                    <span class="songName">Hear the Bell</span>
+                    <span class="songlistplay"><span class="timestamp">03:40<i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span></i></span>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="songbanner"></div>
+        
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="music.gif" width="88px" alt="" id="gif">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9abec1067e.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+</html>
